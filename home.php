@@ -76,9 +76,9 @@
         <button onclick="document.location='ourteam.html'"  type="button" class="btn btn-primary">OUR TEAM <i class="fa fa-group"> </i> </button>
         <button onclick="document.location='location.html'"  type="button" class="btn btn-primary">LOCATION <i class="fa fa-map-marker"> </i></button>
         <button onclick="document.location='contact.html'"  type="button" class="btn btn-primary">CONTACT <i class= "fa fa-envelope"> </i> </button>
-        <button onclick="document.location='homepage.html'"  type="button" class="btn btn-primary">BUY MANDAZI <i class="fa fa-shopping-cart"></i></button>
+        <button onclick="document.location='form.php'"  type="button" class="btn btn-primary">BUY MANDAZI <i class="fa fa-shopping-cart"></i></button>
         <button  onclick="document.location='othermenu.html'" type="button" class="btn btn-primary">OTHER MENU <i class="fa fa-cutlery"></i></button>
-        <button type="button" class="btn btn-danger" onclick="document.location='form.html'"> Log Out <span> <i class="fa fa-sign-out"></i></span> </button>
+        <button type="button" class="btn btn-danger" onclick="document.location='home.php'"> Log Out <span> <i class="fa fa-sign-out"></i></span> </button>
     </div>
     <header>
         <h1>Mandazi Shop</h1>

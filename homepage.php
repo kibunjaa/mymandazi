@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -30,7 +32,16 @@
             }
             th, td {
             background-color:rgba(0, 0, 0, 0.737);
-            }               
+            }   
+            .footer{
+                    padding: 30px;
+                    width: 100%;
+                    background-color: red;
+                    bottom:0 ;
+                    left: 0;
+                    color: black;
+                    text-align: center;
+                }            
             </style>
         <!--End of css-->    
     </head>
@@ -39,15 +50,14 @@
 
         <!-- creating links as buttons and adding fonts -->
         <div>
-            <button onclick="document.location='home.html'"  type="button" class="btn btn-primary">HOME <i class="fa fa-home"></i> </button>
-            <button onclick="document.location='ourteam.html'"  type="button" class="btn btn-primary">OUR TEAM <i class="fa fa-group"> </i> </button>
-            <button onclick="document.location='location.html'"  type="button" class="btn btn-primary">LOCATION <i class="fa fa-map-marker"> </i></button>
-            <button onclick="document.location='contact.html'"  type="button" class="btn btn-primary">CONTACT <i class= "fa fa-envelope"> </i> </button>
-            <button onclick="document.location='homepage.html'"  type="button" class="btn btn-primary">BUY MANDAZI <i class="fa fa-shopping-cart"></i></button>
-            <button  onclick="document.location='othermenu.html'" type="button" class="btn btn-primary">OTHER MENU <i class="fa fa-cutlery"></i></button>
-            <button type="button" class="btn btn-danger" onclick="document.location='form.html'"> Log Out <span> <i class="fa fa-sign-out"></i></span> </button>
+            <button onclick="document.location='home.php'"  type="button" class="btn btn-primary">HOME <i class="fa fa-home"></i> </button>
+            <button onclick="document.location='contact.php'"  type="button" class="btn btn-primary">CONTACT <i class= "fa fa-envelope"> </i> </button>
+            <button onclick="document.location='homepage.php'"  type="button" class="btn btn-primary">BUY MANDAZI <i class="fa fa-shopping-cart"></i></button>
+            <button  onclick="document.location='othermenu.php'" type="button" class="btn btn-primary">OTHER MENU <i class="fa fa-cutlery"></i></button>
+            <button type="button" class="btn btn-danger" onclick="document.location='home.php'"> Log Out <span> <i class="fa fa-sign-out"></i></span> </button>
 
         </div>
+        
         <br>
         <center>
             <img src="images/mand.jpg" alt="Mandazi">  
@@ -155,6 +165,12 @@
                 </tr>
             </table>
         </center>
+        <div class="footer">
+            <footer> <span> <i class="fa fa-facebook" style="font-size:24px"> </i> </span>  
+            <i class="fa fa-instagram" style="font-size:24px"></i>
+        </footer>
+
+        </div>
 
         <!-- bootsrtap links & Font Awesome -->
         <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -32,7 +32,7 @@
 
 <body>
     <center>
-         <h2>DIT INTERNAL ATTCHMENT</h2>
+         <h2>DIT INTERNAL ATTACHMENT</h2>
           </center> 
         <div class="card">
                 <form action="">
